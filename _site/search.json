@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "search.html",
+    "href": "search.html",
+    "title": "Search",
     "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "tests/testdata/pfs/readme.html",
-    "href": "tests/testdata/pfs/readme.html",
-    "title": "mikeio-examples",
-    "section": "",
-    "text": "Pfs files have many different extensions e.g. .sw, .m3fm, .mzt etc and are thus difficult to identify based on extension."
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nBathymetric data\n\n\n\n\n\n\nBoundary\n\n\n\n\n\n\nCombining Datasets\n\n\n\n\n\n\nContributing\n\n\n\n\n\n\nDFS2 - Export to NetCDF\n\n\n\n\n\n\nDataArray - Arithmetic\n\n\n\n\n\n\nDataArray - Dfs123 plotting\n\n\n\n\n\n\nDataArray - Dfsu plotting\n\n\n\n\n\n\nDataArray - Masking\n\n\n\n\n\n\nDataset - Add new item\n\n\n\n\n\n\nDataset - Plotting\n\n\n\n\n\n\nDfs0 - Relative time axis\n\n\n\n\n\n\nDfs1 - Read\n\n\n\n\n\n\nDfs2 - Slicing\n\n\n\n\n\n\nDfs2 - Various types\n\n\n\n\n\n\nDfs3 - Basic\n\n\n\n\n\n\nDfsu - 2D interpolation\n\n\n\n\n\n\nDfsu - 3D sigma-z\n\n\n\n\n\n\nDfsu - Connectivity\n\n\n\n\n\n\nDfsu - Distance to land\n\n\n\n\n\n\nDfsu - Export to netcdf\n\n\n\n\n\n\nDfsu - Export to shapefile\n\n\n\n\n\n\nDfsu - Extract Track\n\n\n\n\n\n\nDfsu - Read\n\n\n\n\n\n\nDfsu - Speed and direction\n\n\n\n\n\n\nDfsu - Vertical Profile\n\n\n\n\n\n\nDfsu - spectral data\n\n\n\n\n\n\nDfsu and Mesh - Plotting\n\n\n\n\n\n\nGeneric dfs processing\n\n\n\n\n\n\nGlobal Forecasting System - Meteorological forecast\n\n\n\n\n\n\nMesh\n\n\n\n\n\n\nMore Dfsu spectral files\n\n\n\n\n\n\nPFS\n\n\n\n\n\n\nTime interpolation\n\n\n\n\n\n\nWrite a dfs0\n\n\n\n\n\n\nmikeio-examples\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "mikeio-examples",
     "section": "",
-    "text": "Made with Quarto https://quarto.org/docs/websites.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\nBathymetric data\n\n\n\n\n\n\nBoundary\n\n\n\n\n\n\nCombining Datasets\n\n\n\n\n\n\nDFS2 - Export to NetCDF\n\n\n\n\n\n\nDataArray - Arithmetic\n\n\n\n\n\n\nDataArray - Dfs123 plotting\n\n\n\n\n\n\nDataArray - Dfsu plotting\n\n\n\n\n\n\nDataArray - Masking\n\n\n\n\n\n\nDataset - Add new item\n\n\n\n\n\n\nDataset - Plotting\n\n\n\n\n\n\nDfs0 - Relative time axis\n\n\n\n\n\n\nDfs1 - Read\n\n\n\n\n\n\nDfs2 - Slicing\n\n\n\n\n\n\nDfs2 - Various types\n\n\n\n\n\n\nDfs3 - Basic\n\n\n\n\n\n\nDfsu - 2D interpolation\n\n\n\n\n\n\nDfsu - 3D sigma-z\n\n\n\n\n\n\nDfsu - Connectivity\n\n\n\n\n\n\nDfsu - Distance to land\n\n\n\n\n\n\nDfsu - Export to netcdf\n\n\n\n\n\n\nDfsu - Export to shapefile\n\n\n\n\n\n\nDfsu - Extract Track\n\n\n\n\n\n\nDfsu - Read\n\n\n\n\n\n\nDfsu - Speed and direction\n\n\n\n\n\n\nDfsu - Vertical Profile\n\n\n\n\n\n\nDfsu - spectral data\n\n\n\n\n\n\nDfsu and Mesh - Plotting\n\n\n\n\n\n\nFolder with various pfs files\n\n\n\n\n\n\nGeneric dfs processing\n\n\n\n\n\n\nGlobal Forecasting System - Meteorological forecast\n\n\n\n\n\n\nMesh\n\n\n\n\n\n\nMore Dfsu spectral files\n\n\n\n\n\n\nPFS\n\n\n\n\n\n\nTime interpolation\n\n\n\n\n\n\nWrite a dfs0\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This site contains a a collection of notebooks with various data processing tasks using MIKE IO.\nMade with Quarto https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "contributing.html",
+    "href": "contributing.html",
+    "title": "Contributing",
+    "section": "",
+    "text": "How to contribute an example to mikeio-examples…"
   },
   {
     "objectID": "notebooks/Dfs0 - Timeseries.html",

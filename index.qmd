@@ -1,10 +1,9 @@
 ---
 title: "mikeio-examples"
-listing: table
 ---
 
-MIKE IO Examples
+![](images/logo/SVG/MIKE-IO-Logo-Pos-RGB.svg)
 
-
+This site contains a a collection of notebooks with various data processing tasks using [MIKE IO](https://dhi.github.io/mikeio).
 
 Made with Quarto <https://quarto.org/docs/websites>.

@@ -1,11 +1,11 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/search.html",
     "items": [
-      "/about.html",
       "/notebooks/Dfs2 - Bathymetry.html",
       "/notebooks/Dfs2 - Boundary.html",
       "/notebooks/Dataset - Concat, merge.html",
+      "/contributing.html",
       "/notebooks/Dfs2 - Export to netcdf.html",
       "/notebooks/DataArray - Arithmetic.html",
       "/notebooks/DataArray - Dfs123 plotting.html",
@@ -30,14 +30,14 @@
       "/notebooks/Dfsu - Vertical Profile.html",
       "/notebooks/Dfsu - Spectral data.html",
       "/notebooks/Dfsu and Mesh - Plotting.html",
-      "/tests/testdata/pfs/readme.html",
       "/notebooks/Generic.html",
       "/notebooks/Dfs2 - Global Forecasting System.html",
       "/notebooks/Mesh.html",
       "/notebooks/Dfsu - Spectral data other formats.html",
       "/notebooks/PFS.html",
       "/notebooks/Time interpolation.html",
-      "/notebooks/Dfs0 - Timeseries.html"
+      "/notebooks/Dfs0 - Timeseries.html",
+      "/index.html"
     ]
   }
 ]
