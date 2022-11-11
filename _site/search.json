@@ -18,7 +18,7 @@
     "href": "contributing.html",
     "title": "Contributing",
     "section": "",
-    "text": "How to contribute an example to mikeio-examples…"
+    "text": "If you have an example of using MIKE IO that you would like to share.\n\nClone the repo\nAdd a new notebook with a descriptive title\nCreate a pull request"
   },
   {
     "objectID": "notebooks/Dfs2_-_Various_types.html",

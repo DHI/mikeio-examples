@@ -2,4 +2,10 @@
 title: "Contributing"
 ---
 
-How to contribute an example to mikeio-examples...
+Please contribute with examples from the world of water where MIKE IO has been used.
+
+If you have an  example of using MIKE IO that you would like to share.
+
+1. Clone the repo
+2. Add a new notebook with a descriptive title
+3. Create a pull request
