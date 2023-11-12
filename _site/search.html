@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -57,7 +57,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -91,6 +92,7 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
@@ -107,25 +109,27 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">mikeio-examples</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./search.html" aria-current="page">
+    <a class="nav-link active" href="./search.html" rel="" target="" aria-current="page">
  <span class="menu-text">Search</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contributing.html">
+    <a class="nav-link" href="./contributing.html" rel="" target="">
  <span class="menu-text">Contributing</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -194,277 +198,316 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="NetCDF,data import" data-listing-file-modified-sort="1665726619756" data-listing-reading-time-sort="0.11" data-listing-title-sort="Bathymetric data" data-listing-filename-sort="Dfs2_-_Bathymetry.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfs2_-_Bathymetry.html" class="title">Bathymetric data</a>
+<tr data-index="0" data-categories="NetCDF,data import" data-listing-file-modified-sort="1699806971726" data-listing-reading-time-sort="1" data-listing-title-sort="Bathymetric data" data-listing-filename-sort="Dfs2_-_Bathymetry.ipynb">
+<td>
+<a href="./notebooks/Dfs2_-_Bathymetry.html" class="title listing-title">Bathymetric data</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1665562779000" data-listing-reading-time-sort="0.49" data-listing-title-sort="Boundary" data-listing-filename-sort="Dfs2_-_Boundary.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfs2_-_Boundary.html" class="title">Boundary</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="2" data-listing-file-modified-sort="1665562756480" data-listing-reading-time-sort="0.255" data-listing-title-sort="Combining Datasets" data-listing-filename-sort="Dataset_-_Concat,_merge.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dataset_-_Concat,_merge.html" class="title">Combining Datasets</a>
+<tr data-index="1" data-listing-file-modified-sort="1699806971726" data-listing-reading-time-sort="1" data-listing-title-sort="Boundary" data-listing-filename-sort="Dfs2_-_Boundary.ipynb">
+<td>
+<a href="./notebooks/Dfs2_-_Boundary.html" class="title listing-title">Boundary</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="3" data-listing-file-modified-sort="1668157668759" data-listing-reading-time-sort="0.225" data-listing-title-sort="Contributing" data-listing-filename-sort="contributing.qmd">
-<td class="listing-title">
-<a href="./contributing.html" class="title">Contributing</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="4" data-categories="NetCDF" data-listing-file-modified-sort="1665726366546" data-listing-reading-time-sort="0.215" data-listing-title-sort="DFS2 - Export to NetCDF" data-listing-filename-sort="Dfs2_-_Export_to_netcdf.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfs2_-_Export_to_netcdf.html" class="title">DFS2 - Export to NetCDF</a>
+<tr data-index="2" data-listing-file-modified-sort="1699806971716" data-listing-reading-time-sort="1" data-listing-title-sort="Combining Datasets" data-listing-filename-sort="Dataset_-_Concat,_merge.ipynb">
+<td>
+<a href="./notebooks/Dataset_-_Concat,_merge.html" class="title listing-title">Combining Datasets</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="5" data-listing-file-modified-sort="1665562725190" data-listing-reading-time-sort="0.325" data-listing-title-sort="DataArray - Arithmetic" data-listing-filename-sort="DataArray_-_Arithmetic.ipynb">
-<td class="listing-title">
-<a href="./notebooks/DataArray_-_Arithmetic.html" class="title">DataArray - Arithmetic</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="6" data-listing-file-modified-sort="1665562730940" data-listing-reading-time-sort="0.175" data-listing-title-sort="DataArray - Dfs123 plotting" data-listing-filename-sort="DataArray_-_Dfs123_plotting.ipynb">
-<td class="listing-title">
-<a href="./notebooks/DataArray_-_Dfs123_plotting.html" class="title">DataArray - Dfs123 plotting</a>
+<tr data-index="3" data-listing-file-modified-sort="1699806971676" data-listing-reading-time-sort="1" data-listing-title-sort="Contributing" data-listing-filename-sort="contributing.qmd">
+<td>
+<a href="./contributing.html" class="title listing-title">Contributing</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="7" data-listing-file-modified-sort="1665562741100" data-listing-reading-time-sort="0.3" data-listing-title-sort="DataArray - Dfsu plotting" data-listing-filename-sort="DataArray_-_Dfsu_plotting.ipynb">
-<td class="listing-title">
-<a href="./notebooks/DataArray_-_Dfsu_plotting.html" class="title">DataArray - Dfsu plotting</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="8" data-listing-file-modified-sort="1665562749570" data-listing-reading-time-sort="0.675" data-listing-title-sort="DataArray - Masking" data-listing-filename-sort="DataArray_-_Masking.ipynb">
-<td class="listing-title">
-<a href="./notebooks/DataArray_-_Masking.html" class="title">DataArray - Masking</a>
+<tr data-index="4" data-categories="NetCDF" data-listing-file-modified-sort="1699806971726" data-listing-reading-time-sort="1" data-listing-title-sort="DFS2 - Export to NetCDF" data-listing-filename-sort="Dfs2_-_Export_to_netcdf.ipynb">
+<td>
+<a href="./notebooks/Dfs2_-_Export_to_netcdf.html" class="title listing-title">DFS2 - Export to NetCDF</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="9" data-listing-file-modified-sort="1665562752950" data-listing-reading-time-sort="0.255" data-listing-title-sort="Dataset - Add new item" data-listing-filename-sort="Dataset_-_Add_item.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dataset_-_Add_item.html" class="title">Dataset - Add new item</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="10" data-listing-file-modified-sort="1665562759600" data-listing-reading-time-sort="0.155" data-listing-title-sort="Dataset - Plotting" data-listing-filename-sort="Dataset_-_plotting.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dataset_-_plotting.html" class="title">Dataset - Plotting</a>
+<tr data-index="5" data-listing-file-modified-sort="1699806971696" data-listing-reading-time-sort="1" data-listing-title-sort="DataArray - Arithmetic" data-listing-filename-sort="DataArray_-_Arithmetic.ipynb">
+<td>
+<a href="./notebooks/DataArray_-_Arithmetic.html" class="title listing-title">DataArray - Arithmetic</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="11" data-listing-file-modified-sort="1666334564781" data-listing-reading-time-sort="0.845" data-listing-title-sort="Dfs0 - CMEMS *in-situ* data" data-listing-filename-sort="Dfs0_-_CMEMS_insitu.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfs0_-_CMEMS_insitu.html" class="title">Dfs0 - CMEMS <em>in-situ</em> data</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="12" data-listing-file-modified-sort="1665562762720" data-listing-reading-time-sort="0.245" data-listing-title-sort="Dfs0 - Relative time axis" data-listing-filename-sort="Dfs0_-_Relative_time.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfs0_-_Relative_time.html" class="title">Dfs0 - Relative time axis</a>
+<tr data-index="6" data-listing-file-modified-sort="1699806971706" data-listing-reading-time-sort="1" data-listing-title-sort="DataArray - Dfs123 plotting" data-listing-filename-sort="DataArray_-_Dfs123_plotting.ipynb">
+<td>
+<a href="./notebooks/DataArray_-_Dfs123_plotting.html" class="title listing-title">DataArray - Dfs123 plotting</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="13" data-listing-file-modified-sort="1665562771520" data-listing-reading-time-sort="0.045" data-listing-title-sort="Dfs1 - Read" data-listing-filename-sort="Dfs1_-_Read.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfs1_-_Read.html" class="title">Dfs1 - Read</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="14" data-listing-file-modified-sort="1665562790550" data-listing-reading-time-sort="0.055" data-listing-title-sort="Dfs2 - Slicing" data-listing-filename-sort="Dfs2_-_Slicing.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfs2_-_Slicing.html" class="title">Dfs2 - Slicing</a>
+<tr data-index="7" data-listing-file-modified-sort="1699806971716" data-listing-reading-time-sort="1" data-listing-title-sort="DataArray - Dfsu plotting" data-listing-filename-sort="DataArray_-_Dfsu_plotting.ipynb">
+<td>
+<a href="./notebooks/DataArray_-_Dfsu_plotting.html" class="title listing-title">DataArray - Dfsu plotting</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="15" data-listing-file-modified-sort="1665562796640" data-listing-reading-time-sort="0.55" data-listing-title-sort="Dfs2 - Various types" data-listing-filename-sort="Dfs2_-_Various_types.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfs2_-_Various_types.html" class="title">Dfs2 - Various types</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="16" data-listing-file-modified-sort="1665562801210" data-listing-reading-time-sort="0.005" data-listing-title-sort="Dfs3 - Basic" data-listing-filename-sort="Dfs3_-_Basic.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfs3_-_Basic.html" class="title">Dfs3 - Basic</a>
+<tr data-index="8" data-listing-file-modified-sort="1699806971716" data-listing-reading-time-sort="1" data-listing-title-sort="DataArray - Masking" data-listing-filename-sort="DataArray_-_Masking.ipynb">
+<td>
+<a href="./notebooks/DataArray_-_Masking.html" class="title listing-title">DataArray - Masking</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="17" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="1.005" data-listing-title-sort="Dfsu - 2D interpolation" data-listing-filename-sort="Dfsu_-_2D_interpolation.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_2D_interpolation.html" class="title">Dfsu - 2D interpolation</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="18" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="1.225" data-listing-title-sort="Dfsu - 3D sigma-z" data-listing-filename-sort="Dfsu_-_3D_sigma-z.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_3D_sigma-z.html" class="title">Dfsu - 3D sigma-z</a>
+<tr data-index="9" data-listing-file-modified-sort="1699806971716" data-listing-reading-time-sort="1" data-listing-title-sort="Dataset - Add new item" data-listing-filename-sort="Dataset_-_Add_item.ipynb">
+<td>
+<a href="./notebooks/Dataset_-_Add_item.html" class="title listing-title">Dataset - Add new item</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="19" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="0.63" data-listing-title-sort="Dfsu - Connectivity" data-listing-filename-sort="Dfsu_-_Connectivity.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_Connectivity.html" class="title">Dfsu - Connectivity</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="20" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="0.195" data-listing-title-sort="Dfsu - Distance to land" data-listing-filename-sort="Dfsu_-_Distance_to_land.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_Distance_to_land.html" class="title">Dfsu - Distance to land</a>
+<tr data-index="10" data-listing-file-modified-sort="1699806971716" data-listing-reading-time-sort="1" data-listing-title-sort="Dataset - Plotting" data-listing-filename-sort="Dataset_-_plotting.ipynb">
+<td>
+<a href="./notebooks/Dataset_-_plotting.html" class="title listing-title">Dataset - Plotting</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="21" data-categories="NetCDF" data-listing-file-modified-sort="1665726459416" data-listing-reading-time-sort="0.08" data-listing-title-sort="Dfsu - Export to netcdf" data-listing-filename-sort="Dfsu_-_Export_to_netcdf.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_Export_to_netcdf.html" class="title">Dfsu - Export to netcdf</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="22" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="0.39" data-listing-title-sort="Dfsu - Export to shapefile" data-listing-filename-sort="Dfsu_-_Export_to_shapefile.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_Export_to_shapefile.html" class="title">Dfsu - Export to shapefile</a>
+<tr data-index="11" data-listing-file-modified-sort="1699806971716" data-listing-reading-time-sort="1" data-listing-title-sort="Dfs0 - CMEMS *in-situ* data" data-listing-filename-sort="Dfs0_-_CMEMS_insitu.ipynb">
+<td>
+<a href="./notebooks/Dfs0_-_CMEMS_insitu.html" class="title listing-title">Dfs0 - CMEMS <em>in-situ</em> data</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="23" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="0.54" data-listing-title-sort="Dfsu - Extract Track" data-listing-filename-sort="Dfsu_-_Extract_Track.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_Extract_Track.html" class="title">Dfsu - Extract Track</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="24" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="0.61" data-listing-title-sort="Dfsu - Read" data-listing-filename-sort="Dfsu_-_Read.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_Read.html" class="title">Dfsu - Read</a>
+<tr data-index="12" data-listing-file-modified-sort="1699806971716" data-listing-reading-time-sort="1" data-listing-title-sort="Dfs0 - Relative time axis" data-listing-filename-sort="Dfs0_-_Relative_time.ipynb">
+<td>
+<a href="./notebooks/Dfs0_-_Relative_time.html" class="title listing-title">Dfs0 - Relative time axis</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="25" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="0.26" data-listing-title-sort="Dfsu - Speed and direction" data-listing-filename-sort="Dfsu_-_Speed_and_direction.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_Speed_and_direction.html" class="title">Dfsu - Speed and direction</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="26" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="0.645" data-listing-title-sort="Dfsu - Vertical Profile" data-listing-filename-sort="Dfsu_-_Vertical_Profile.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_Vertical_Profile.html" class="title">Dfsu - Vertical Profile</a>
+<tr data-index="13" data-listing-file-modified-sort="1699806971726" data-listing-reading-time-sort="1" data-listing-title-sort="Dfs1 - Read" data-listing-filename-sort="Dfs1_-_Read.ipynb">
+<td>
+<a href="./notebooks/Dfs1_-_Read.html" class="title listing-title">Dfs1 - Read</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="27" data-listing-file-modified-sort="1670322377007" data-listing-reading-time-sort="0.57" data-listing-title-sort="Dfsu - Write huge file" data-listing-filename-sort="Dfsu_-_Write_huge_file.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_Write_huge_file.html" class="title">Dfsu - Write huge file</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="28" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="0.47" data-listing-title-sort="Dfsu - spectral data" data-listing-filename-sort="Dfsu_-_Spectral_data.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_Spectral_data.html" class="title">Dfsu - spectral data</a>
+<tr data-index="14" data-listing-file-modified-sort="1699806971726" data-listing-reading-time-sort="1" data-listing-title-sort="Dfs2 - Slicing" data-listing-filename-sort="Dfs2_-_Slicing.ipynb">
+<td>
+<a href="./notebooks/Dfs2_-_Slicing.html" class="title listing-title">Dfs2 - Slicing</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="29" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="0.25" data-listing-title-sort="Dfsu and Mesh - Plotting" data-listing-filename-sort="Dfsu_and_Mesh_-_Plotting.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_and_Mesh_-_Plotting.html" class="title">Dfsu and Mesh - Plotting</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="30" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="1.185" data-listing-title-sort="Generic dfs processing" data-listing-filename-sort="Generic.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Generic.html" class="title">Generic dfs processing</a>
+<tr data-index="15" data-listing-file-modified-sort="1699806971736" data-listing-reading-time-sort="1" data-listing-title-sort="Dfs2 - Various types" data-listing-filename-sort="Dfs2_-_Various_types.ipynb">
+<td>
+<a href="./notebooks/Dfs2_-_Various_types.html" class="title listing-title">Dfs2 - Various types</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="31" data-listing-file-modified-sort="1665562786630" data-listing-reading-time-sort="0.245" data-listing-title-sort="Global Forecasting System - Meteorological forecast" data-listing-filename-sort="Dfs2_-_Global_Forecasting_System.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfs2_-_Global_Forecasting_System.html" class="title">Global Forecasting System - Meteorological forecast</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="32" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="0.555" data-listing-title-sort="Mesh" data-listing-filename-sort="Mesh.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Mesh.html" class="title">Mesh</a>
+<tr data-index="16" data-listing-file-modified-sort="1699806971736" data-listing-reading-time-sort="1" data-listing-title-sort="Dfs3 - Basic" data-listing-filename-sort="Dfs3_-_Basic.ipynb">
+<td>
+<a href="./notebooks/Dfs3_-_Basic.html" class="title listing-title">Dfs3 - Basic</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="33" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="0.385" data-listing-title-sort="More Dfsu spectral files" data-listing-filename-sort="Dfsu_-_Spectral_data_other_formats.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfsu_-_Spectral_data_other_formats.html" class="title">More Dfsu spectral files</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="34" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="1.02" data-listing-title-sort="PFS" data-listing-filename-sort="PFS.ipynb">
-<td class="listing-title">
-<a href="./notebooks/PFS.html" class="title">PFS</a>
+<tr data-index="17" data-listing-file-modified-sort="1699806971736" data-listing-reading-time-sort="1" data-listing-title-sort="Dfsu - 2D interpolation" data-listing-filename-sort="Dfsu_-_2D_interpolation.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_2D_interpolation.html" class="title listing-title">Dfsu - 2D interpolation</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="35" data-listing-file-modified-sort="1668100396974" data-listing-reading-time-sort="0.095" data-listing-title-sort="PFS - Palette" data-listing-filename-sort="PFS_-_Palette.ipynb">
-<td class="listing-title">
-<a href="./notebooks/PFS_-_Palette.html" class="title">PFS - Palette</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="36" data-listing-file-modified-sort="1665562510980" data-listing-reading-time-sort="0.6" data-listing-title-sort="Time interpolation" data-listing-filename-sort="Time_interpolation.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Time_interpolation.html" class="title">Time interpolation</a>
+<tr data-index="18" data-listing-file-modified-sort="1699806971736" data-listing-reading-time-sort="2" data-listing-title-sort="Dfsu - 3D sigma-z" data-listing-filename-sort="Dfsu_-_3D_sigma-z.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_3D_sigma-z.html" class="title listing-title">Dfsu - 3D sigma-z</a>
 </td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="37" data-listing-file-modified-sort="1665562767660" data-listing-reading-time-sort="0.79" data-listing-title-sort="Write a dfs0" data-listing-filename-sort="Dfs0_-_Timeseries.ipynb">
-<td class="listing-title">
-<a href="./notebooks/Dfs0_-_Timeseries.html" class="title">Write a dfs0</a>
-</td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
-<tr data-index="38" data-listing-file-modified-sort="1665725796446" data-listing-reading-time-sort="0.095" data-listing-title-sort="mikeio-examples" data-listing-filename-sort="index.qmd">
-<td class="listing-title">
-<a href="./index.html" class="title">mikeio-examples</a>
+<tr data-index="19" data-listing-file-modified-sort="1699806971736" data-listing-reading-time-sort="1" data-listing-title-sort="Dfsu - Connectivity" data-listing-filename-sort="Dfsu_-_Connectivity.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_Connectivity.html" class="title listing-title">Dfsu - Connectivity</a>
 </td>
-<td class="listing-author">
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="20" data-listing-file-modified-sort="1699806971746" data-listing-reading-time-sort="1" data-listing-title-sort="Dfsu - Distance to land" data-listing-filename-sort="Dfsu_-_Distance_to_land.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_Distance_to_land.html" class="title listing-title">Dfsu - Distance to land</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="21" data-categories="NetCDF" data-listing-file-modified-sort="1699806971746" data-listing-reading-time-sort="1" data-listing-title-sort="Dfsu - Export to netcdf" data-listing-filename-sort="Dfsu_-_Export_to_netcdf.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_Export_to_netcdf.html" class="title listing-title">Dfsu - Export to netcdf</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="22" data-listing-file-modified-sort="1699806971746" data-listing-reading-time-sort="1" data-listing-title-sort="Dfsu - Export to shapefile" data-listing-filename-sort="Dfsu_-_Export_to_shapefile.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_Export_to_shapefile.html" class="title listing-title">Dfsu - Export to shapefile</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="23" data-listing-file-modified-sort="1699806971746" data-listing-reading-time-sort="1" data-listing-title-sort="Dfsu - Extract Track" data-listing-filename-sort="Dfsu_-_Extract_Track.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_Extract_Track.html" class="title listing-title">Dfsu - Extract Track</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="24" data-listing-file-modified-sort="1699806971746" data-listing-reading-time-sort="1" data-listing-title-sort="Dfsu - Read" data-listing-filename-sort="Dfsu_-_Read.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_Read.html" class="title listing-title">Dfsu - Read</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="25" data-listing-file-modified-sort="1699806971746" data-listing-reading-time-sort="1" data-listing-title-sort="Dfsu - Speed and direction" data-listing-filename-sort="Dfsu_-_Speed_and_direction.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_Speed_and_direction.html" class="title listing-title">Dfsu - Speed and direction</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="26" data-listing-file-modified-sort="1699806971746" data-listing-reading-time-sort="1" data-listing-title-sort="Dfsu - Vertical Profile" data-listing-filename-sort="Dfsu_-_Vertical_Profile.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_Vertical_Profile.html" class="title listing-title">Dfsu - Vertical Profile</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="27" data-listing-file-modified-sort="1699806971746" data-listing-reading-time-sort="1" data-listing-title-sort="Dfsu - Write huge file" data-listing-filename-sort="Dfsu_-_Write_huge_file.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_Write_huge_file.html" class="title listing-title">Dfsu - Write huge file</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="28" data-listing-file-modified-sort="1699806971746" data-listing-reading-time-sort="1" data-listing-title-sort="Dfsu - spectral data" data-listing-filename-sort="Dfsu_-_Spectral_data.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_Spectral_data.html" class="title listing-title">Dfsu - spectral data</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="29" data-listing-file-modified-sort="1699806971756" data-listing-reading-time-sort="1" data-listing-title-sort="Dfsu and Mesh - Plotting" data-listing-filename-sort="Dfsu_and_Mesh_-_Plotting.ipynb">
+<td>
+<a href="./notebooks/Dfsu_and_Mesh_-_Plotting.html" class="title listing-title">Dfsu and Mesh - Plotting</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="30" data-listing-file-modified-sort="1699806971766" data-listing-reading-time-sort="2" data-listing-title-sort="Generic dfs processing" data-listing-filename-sort="Generic.ipynb">
+<td>
+<a href="./notebooks/Generic.html" class="title listing-title">Generic dfs processing</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="31" data-listing-file-modified-sort="1699806971726" data-listing-reading-time-sort="1" data-listing-title-sort="Global Forecasting System - Meteorological forecast" data-listing-filename-sort="Dfs2_-_Global_Forecasting_System.ipynb">
+<td>
+<a href="./notebooks/Dfs2_-_Global_Forecasting_System.html" class="title listing-title">Global Forecasting System - Meteorological forecast</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="32" data-listing-file-modified-sort="1699806971766" data-listing-reading-time-sort="1" data-listing-title-sort="Mesh" data-listing-filename-sort="Mesh.ipynb">
+<td>
+<a href="./notebooks/Mesh.html" class="title listing-title">Mesh</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="33" data-listing-file-modified-sort="1699806971746" data-listing-reading-time-sort="1" data-listing-title-sort="More Dfsu spectral files" data-listing-filename-sort="Dfsu_-_Spectral_data_other_formats.ipynb">
+<td>
+<a href="./notebooks/Dfsu_-_Spectral_data_other_formats.html" class="title listing-title">More Dfsu spectral files</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="34" data-listing-file-modified-sort="1699806986826" data-listing-reading-time-sort="2" data-listing-title-sort="PFS" data-listing-filename-sort="PFS.ipynb">
+<td>
+<a href="./notebooks/PFS.html" class="title listing-title">PFS</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="35" data-listing-file-modified-sort="1699806971766" data-listing-reading-time-sort="1" data-listing-title-sort="PFS - Palette" data-listing-filename-sort="PFS_-_Palette.ipynb">
+<td>
+<a href="./notebooks/PFS_-_Palette.html" class="title listing-title">PFS - Palette</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="36" data-listing-file-modified-sort="1699806971766" data-listing-reading-time-sort="1" data-listing-title-sort="Time interpolation" data-listing-filename-sort="Time_interpolation.ipynb">
+<td>
+<a href="./notebooks/Time_interpolation.html" class="title listing-title">Time interpolation</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="37" data-listing-file-modified-sort="1699806971726" data-listing-reading-time-sort="1" data-listing-title-sort="Write a dfs0" data-listing-filename-sort="Dfs0_-_Timeseries.ipynb">
+<td>
+<a href="./notebooks/Dfs0_-_Timeseries.html" class="title listing-title">Write a dfs0</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+<tr data-index="38" data-listing-file-modified-sort="1699806971696" data-listing-reading-time-sort="1" data-listing-title-sort="mikeio-examples" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./index.html" class="title listing-title">mikeio-examples</a>
+</td>
+<td>
+<span class="listing-author"></span>
 </td>
 </tr>
 </tbody>
@@ -504,9 +547,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -571,6 +628,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
